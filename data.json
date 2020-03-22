@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "Fahmi Yuda Fauzi",
+        "umur": 22,
+        "NPM":  "151047",
+        "lulus": true,
+        "hoby":[
+            "koding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Ade Dwi Herdiansyah",
+            "pembimbing2": "Arif"
+        },
+        "alamat": "karawang"
+    },
+    {
+        "nama": "Hendi Permana",
+        "umur": 22,
+        "NPM":  "151048",
+        "lulus": true,
+        "hoby":[
+            "Koding",
+            "Makan"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Ade Dwi Herdiansyah",
+            "pembimbing2": "Reza"
+        },
+        "alamat": "karawang"
+    }
+]
