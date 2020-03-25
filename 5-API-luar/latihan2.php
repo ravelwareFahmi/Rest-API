@@ -1,9 +1,9 @@
 <?php
-    $data = file_get_contents('pizza.json');
-    $menu = json_decode($data, true);
+    // $data = file_get_contents('pizza.json');
+    // $menu = json_decode($data, true);
 
-    // echo $menu;
-    $menu = $menu["menu"];
+    // // echo $menu;
+    // $menu = $menu["menu"];
 ?>
 <!doctype html>
 <html lang="en">
@@ -42,10 +42,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="navbar-nav">
                             <a class="nav-item nav-link active" href="#">All Menu</a>
-                            <a class="nav-item nav-link" href="#">Pizza</a>
-                            <a class="nav-item nav-link" href="#">Pasta</a>
-                            <a class="nav-item nav-link" href="#">Nasi</a>
-                            <a class="nav-item nav-link" href="#">Minuman</a>
+                            <a class="nav-item nav-link" href="#">Search Movie</a>
                             
                         </div>
                     </div>
@@ -57,9 +54,9 @@
             <div class="row justify-content-center mt-4">
                 <div class="col-md-8">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Search Movie">
-                        <div class="input-group-append justify-content-center">
-                            <button class="btn btn-dark" type="button">Button</button>
+                        <input type="text" class="form-control" id="search-input" placeholder="Search Movie">
+                        <div class="input-group-append">
+                            <button class="btn btn-dark" id="search-button" type="button">Button</button>
                         </div>
                     </div>
                 </div>
@@ -67,9 +64,8 @@
             <hr>
         </div>
         <div class="container">
-            <div class="row" id="menu">
+            <div class="row" id="movie-list">
             <div class="input-group mb-3">
-                
             </div>
             </div>
         </div>
