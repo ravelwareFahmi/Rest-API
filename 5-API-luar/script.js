@@ -72,8 +72,6 @@ $('#movie-list').on('click','.seeDetail', function(){
         },
         success: function (response) {
             if (response.Response == 'True') {
-                console.log('resonse');
-                
                 $('.modal-body').html(`
                     <div class="container>
                         <div class="row">
@@ -105,5 +103,4 @@ $('#movie-list').on('click','.seeDetail', function(){
             }
         }
     });
-    
 })
